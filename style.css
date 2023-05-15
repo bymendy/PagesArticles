@@ -1,0 +1,90 @@
+/* REGLAGE GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1 {
+    font-size: 17px;
+}
+a {
+    color: white;
+}
+/* HEADER */
+.SiteHeader.Headfix {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+}
+
+.head-top-bar-area {
+    background: #2F6E91;
+    opacity: 0.9;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    height: 50px;
+}
+.center{
+    max-width: 1210px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.logo{
+    color: white;
+    line-height: 40px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+
+}
+
+.head-top-bar-area .social-icons a {
+    font-size: 16px;
+    height: 45px;
+    width: 35px;
+    margin: 0px;
+    line-height: 40px;
+
+}
+.header-wrap {
+    padding: 0px;
+    height: 45px;
+
+}
+.header .center {
+    border: solid 2px red;
+    position: relative;
+    padding: 0px ;
+    padding-right: 0px ;
+    height: 45px;
+    line-height: 40px;
+
+}
+.center {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px ;
+    width: 100%;
+}
+.head_inner_area{
+    background: #315062;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    
+}
+.head_inner_area a{
+    margin-right: 55px;
+
+}
