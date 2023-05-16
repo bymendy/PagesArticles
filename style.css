@@ -15,9 +15,15 @@ h1 {
 a {
     color: white !important;
 }
-.border-red {
-    border: solid  2px  red;
+
+.top-p {
+    top: ;
 }
+
+.border-red {
+    border: solid 2px red;
+}
+
 /* HEADER */
 .SiteHeader.Headfix {
     position: absolute;
@@ -107,8 +113,7 @@ a {
 /* SECTION ARTICLES */
 .h2-title {
     box-sizing: border-box;
-    position: absolute;
-    width: 604.66px;
+    width: 80%;
     height: 56px;
     left: 250px;
     top: 200px;
@@ -116,6 +121,7 @@ a {
     border-style: solid;
     border-color: #000000;
     text-align: center;
+    text-transform: uppercase;
 }
 
 a {
@@ -128,15 +134,15 @@ a {
 
 
 .site-section {
-  padding: 7em 0;
+    padding: 7em 0;
 }
 
 .site-section.py-md {
-  padding: 3em 0;
+    padding: 3em 0;
 }
 
 .site-section.py-sm {
-  padding: 0;
+    padding: 0;
 }
 
 
@@ -198,3 +204,36 @@ a {
     max-width: 100%;
     height: auto;
 }
+
+/* SIDEBAR Colonne à doite */
+#sidebar {
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+    padding: 0 25px;
+}
+
+.last-article {
+    box-sizing: border-box;
+
+    width: 297.33px;
+    height: 56px;
+    left: 0px;
+    top: 50px;
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+h4{
+    font-size: 18px !important;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 600px) {
+    #sidebar {
+      width: 100%;
+    }
+  }
