@@ -16,13 +16,9 @@ h3 {
     text-transform: uppercase;
 }
 
-a {
+/* a {
     color: black !important;
-}
-
-.top-p {
-    top: ;
-}
+} */
 
 .border-red {
     border: solid 2px red;
@@ -30,6 +26,10 @@ a {
 
 .margin-bottom {
     margin-bottom: 50px;
+}
+
+.margin-top {
+    margin-top: 150px;
 }
 
 /* HEADER */
@@ -77,6 +77,7 @@ a {
     width: 35px;
     margin: 0px;
     line-height: 40px;
+    color: white;
 
 }
 
@@ -115,6 +116,8 @@ a {
 
 .head_inner_area a {
     margin-right: 55px;
+    color: white;
+    font-size: 15px;
 
 }
 
@@ -215,10 +218,8 @@ a {
 
 /* SIDEBAR Colonne à doite */
 #sidebar {
-    width: 30%;
-    float: right;
-    margin-top: 10px;
-    padding: 0 25px;
+    width: 100%;
+
 }
 
 .last-article {
@@ -258,12 +259,116 @@ a {
     color: white;
     background: #333333;
 }
-.title-p{
+
+.title-p {
     font-size: 17px;
 }
+
+.icons-about a {
+    color: #000000;
+    padding: 1rem;
+}
+
+/* Notre equipe */
+#team img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.card {
+    border: white !important;
+}
+
+/* FOOTER */
+.about-footer p {
+    color: white;
+    padding: 2rem;
+}
+.footer {
+    background: #333333
+    ;
+    background-size: cover;
+
+}
+
+.first {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206, 206, 206);
+    font-family: 'Poppins', sans-serif;
+}
+
+.first p {
+    font-size: 14px;
+}
+
+.second {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206, 206, 206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.second2 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206, 206, 206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+.third {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206, 206, 206);
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+.line {
+    height: 2px;
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 /* MEDIA QUERIES */
-@media (max-width: 600px) {
+@media (min-width: 1000px) {
     #sidebar {
-        width: 100%;
+        width: 30%;
+        float: right;
+        margin-top: 10px;
+        padding: 0 25px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .first {
+        text-align: center;
+    }
+
+    .first h4::after {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .third {
+        text-align: center;
+    }
+
+    .third h4::after {
+        left: 40% !important;
     }
 }
