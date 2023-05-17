@@ -12,8 +12,12 @@ h1 {
     font-size: 17px;
 }
 
+h3 {
+    text-transform: uppercase;
+}
+
 a {
-    color: white !important;
+    color: black !important;
 }
 
 .top-p {
@@ -22,6 +26,10 @@ a {
 
 .border-red {
     border: solid 2px red;
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
 }
 
 /* HEADER */
@@ -227,13 +235,35 @@ a {
     text-align: center;
     font-size: 25px;
 }
-h4{
-    font-size: 18px !important;
+
+
+
+/********* SECTION ********/
+/* A Propos de nous */
+.section-about {
+    box-sizing: border-box;
+    height: 46px;
+    left: 81px;
+    right: 287px;
+    top: 1180px;
+    border-bottom: 2px solid #333333;
 }
 
+.auto-layout {
+    padding: 1px 74.02px 1px 75px;
+    width: 450px;
+    height: 50px;
+    top: 12px;
+    text-align: center;
+    color: white;
+    background: #333333;
+}
+.title-p{
+    font-size: 17px;
+}
 /* MEDIA QUERIES */
 @media (max-width: 600px) {
     #sidebar {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
