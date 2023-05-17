@@ -198,19 +198,6 @@ a {
     display: inline-block;
 }
 
-.category {
-    display: inline-block;
-    background: indigo;
-    padding: 2px 8px;
-    line-height: 1.5;
-    font-size: 12px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    color: white !important;
-    margin-right: 10px;
-    letter-spacing: 0.2em;
-}
-
 .img-fluid {
     max-width: 100%;
     height: auto;
