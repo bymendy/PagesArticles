@@ -125,7 +125,7 @@ require_once('header.php')
         <div>
             <a href="#" class="text-decoration-none">Voir la politique de confidentialité</a>
         </div>
-        <button type="submit" class="btn btn-primary mt-3">Envoyer ma question</button>
+        <button type="submit" class="send-question btn btn-primary mt-3">Envoyer ma question</button>
     </form>
     </section>
 </div>

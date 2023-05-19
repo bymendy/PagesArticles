@@ -42,7 +42,7 @@ require_once('header.php')
         </div>
         <div>
           <button class="btn btn-primary">Publié</button>
-          <button class="btn btn-secondary">Brouillon</button>
+          <button class="btn btn-light">Brouillon</button>
         </div>
       </section>
     </div>

@@ -64,6 +64,10 @@ p{
     line-height: 40px;
 }
 
+.logo a {
+    color: white;
+    line-height: 40px;
+}
 .left {
     float: left;
 }
@@ -122,7 +126,9 @@ p{
     font-size: 15px;
 
 }
-
+.lien-menu:hover {
+    background-color: #2F6E91;
+}
 /* SECTION ARTICLES */
 .h2-title {
     box-sizing: border-box;
@@ -343,8 +349,8 @@ a {
 }
 /* ******* Publier un article********* */
 
-button {
-    background-color: #3B5998 !important;
+.send-question {
+    background-color: #3B5998 ;
 }
 /* MEDIA QUERIES */
 @media (min-width: 1000px) {
@@ -360,10 +366,19 @@ button {
     .padding-2 {
         padding: 4rem;
     }
+    .nav-button   {
+        display: none;
+    }
 
 }
 
 @media screen and (max-width:1000px) {
+    .lien-menu  {
+        display: none;
+    }
+    .left{
+        left: 200px;
+    }
     .first {
         text-align: center;
     }

@@ -30,12 +30,12 @@
     <title>PageArticles</title>
   </head>
   <body>
-  <header class="SiteHeader Headfix">
+  <header class="SiteHeader Headfix fixed-top">
     <!-- Top bar nav -->
-    <div class="head-top-bar-area">
+    <div class="head-top-bar-area ">
         <div class="center">
             <div class="left">
-                <h1 class="logo">PAGE ARTICLE</h1>
+                <h1 class="logo"><a href="index.php">PAGE ARTICLE</a> </h1>
             </div>
             <div class="right">
                 <div class="social-icons">
@@ -50,24 +50,25 @@
     <div class="header-wrap">
         <div class="header type1">
             <div class="center">
-                <div class="head_inner_area d-flex justify-content-center">
-                    <a href="index.php">Accueil</a>
-                    <a href="post-article.php">Publier un article</a>
-                    <a href="about.php">Qui sommes nous?</a>
-                    <div class="side-nav text-color">
+                <div class="head_inner_area ">
+                    <a class="lien-menu" href="index.php">Accueil</a>
+                    <a class="lien-menu" href="post-article.php">Publier un article</a>
+                    <a class="lien-menu" href="about.php">Qui sommes nous?</a>
+                    
+                </div>
+                <div class="side-nav text-color">
                         <ul class="abs-center nav-options">
-                            <li class="rela-block"><a href="index.php">Accueil</a></li>
-                            <li class="rela-block"><a href="post-article.php">Publier un article</a></li>
-                            <li class="rela-block"><a href="about.php">Qui sommes nous?</a></li>
+                            <li class="rela-block"><a class="nav-link text-color" href="index.php">Accueil</a></li>
+                            <li class="rela-block"><a class="nav-link text-color" href="post-article.php">Publier un article</a></li>
+                            <li class="rela-block"><a class="nav-link text-color" href="about.php">Qui sommes nous?</a></li>
                         </ul>
                     </div>
-                    <div class="rela-block top-section">
-                        <div class="nav-button top">
+                <div class="rela-block top-section">
+                    <div class="nav-button my-2 top">
                         <div class="abs-center nav-bars"></div>
-                        </div>
-                        <div class="search-button">
+                    </div>
+                    <div class="search-button">
                         <div class="abs-center magnefying-glass"></div>
-                        </div>
                     </div>
                 </div>
             </div>
