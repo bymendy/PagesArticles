@@ -45,4 +45,7 @@
       </div>
 
   </body>
+
+  <script src="assets/app-burger.js"></script>
+
 </html>

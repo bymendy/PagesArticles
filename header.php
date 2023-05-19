@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <!-- lien Bootstrap -->
 
     <!-- links pour icones fontawesome -->
     <script
@@ -18,13 +16,22 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
     />
+        <!-- lien Bootstrap -->
+
     <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/js/bootstrap.min.js" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu-burger.css" />
+
+    <script src="jquery/jquery-3.6.3.min.js"></script>
+
+
 
     <title>PageArticles</title>
   </head>
   <body>
-    <header class="SiteHeader Headfix">
-        <!-- Top bar nav -->
+  <header class="SiteHeader Headfix">
+    <!-- Top bar nav -->
     <div class="head-top-bar-area">
         <div class="center">
             <div class="left">
@@ -32,9 +39,9 @@
             </div>
             <div class="right">
                 <div class="social-icons">
-                    <a href="#" target="_blank" class=" fa fa-facebook fa-1x" title="facebook"></a>
-                    <a href="#" target="_blank" class=" fa fa-twitter fa-1x" title="twitter"></a>
-                    <a href="#" target="_blank" class=" fa fa-youtube fa-1x" title="youtube"></a>
+                    <a href="#" target="_blank" class="fa fa-facebook fa-1x" title="facebook"></a>
+                    <a href="#" target="_blank" class="fa fa-twitter fa-1x" title="twitter"></a>
+                    <a href="#" target="_blank" class="fa fa-youtube fa-1x" title="youtube"></a>
                 </div>
             </div>
         </div>
@@ -43,13 +50,28 @@
     <div class="header-wrap">
         <div class="header type1">
             <div class="center">
-                <div class="head_inner_area">
-                    <a href="index.php">Acceuil</a>
-                    <a href="#">Publier un article</a>
+                <div class="head_inner_area d-flex justify-content-center">
+                    <a href="index.php">Accueil</a>
+                    <a href="post-article.php">Publier un article</a>
                     <a href="about.php">Qui sommes nous?</a>
+                    <div class="side-nav text-color">
+                        <ul class="abs-center nav-options">
+                            <li class="rela-block"><a href="index.php">Accueil</a></li>
+                            <li class="rela-block"><a href="post-article.php">Publier un article</a></li>
+                            <li class="rela-block"><a href="about.php">Qui sommes nous?</a></li>
+                        </ul>
+                    </div>
+                    <div class="rela-block top-section">
+                        <div class="nav-button top">
+                        <div class="abs-center nav-bars"></div>
+                        </div>
+                        <div class="search-button">
+                        <div class="abs-center magnefying-glass"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    </header>
+</header>
     <div class="pt-5  margin-bottom">
