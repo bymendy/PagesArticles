@@ -12,21 +12,19 @@
     ></script>
 
     <!-- links pour les icon bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
-    />
-        <!-- lien Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"/>
 
+        <!-- lien Bootstrap -->
     <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="bootstrap-5.2.3-dist/js/bootstrap.min.js" />
+
+    <!-- Lien CSS -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="menu-burger.css" />
 
-    <script src="jquery/jquery-3.6.3.min.js"></script>
 
 
 
+    <!-- Titre de la Page -->
     <title>PageArticles</title>
   </head>
   <body>
@@ -74,5 +72,7 @@
             </div>
         </div>
     </div>
+    
 </header>
+
     <div class="pt-5  margin-bottom">

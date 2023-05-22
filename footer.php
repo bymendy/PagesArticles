@@ -1,4 +1,5 @@
    <!-- PIED DE PAGE -->
+   <footer>
         <!-- footer -->
         <div class="footer margin-top">
           <div class="container">
@@ -9,9 +10,9 @@
               <div class="row">
                   <div class="col-md-4 col-xs-12">
                       <div class="first">
-                          <p> Acceuil</p>
-                          <p> Article</p>
-                          <p> A propos de nous</p>
+                            <p><a href="index.php" style="color: white;">Acceuil</a></p>
+                            <p><a  href="index.php" style="color: white;">Article</a></p>
+                            <p><a  href="contact.php" style="color: white;">A propos de nous</a></p> 
                       </div>
                   </div>
   
@@ -25,8 +26,7 @@
   
                   <div class="col-md-4 col-xs-12">
                       <div class="third">
-                        <p>Contact</p>
-
+                      <p><a  href="contact.php" style="color: white;">Contact</a></p>
                       </div>
                   </div>
               </div>
@@ -43,9 +43,17 @@
               </div>
           </div>
       </div>
+    </footer>
 
   </body>
-
-  <script src="assets/app-burger.js"></script>
+   <!-- ********** SCRIPT *********** -->
+    <!-- Lien script Jquery -->
+    <script src="jquery/jquery-3.6.3.min.js"></script>
+   <!-- Les scripts Javascript -->
+   <script src="assets/app-burger.js"></script>
+    <!-- script JS bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/dropdown.js"></script>
+    
 
 </html>
