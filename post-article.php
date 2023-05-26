@@ -10,10 +10,10 @@ require_once('header.php')
       <section id="publier">
       <div class="dropdown p-2 my-4">
           <!-- Choix de La Langue -->
-          <button class="btn btn-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn btn-light dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             Choix de la langue
           </button>
-          <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+          <ul class="dropdown-menu " aria-labelledby="languageDropdown">
             <li><a class="dropdown-item" href="#">Anglais</a></li>
             <li><a class="dropdown-item" href="#">Français</a></li>
           </ul>
@@ -63,7 +63,7 @@ require_once('header.php')
         <div>
           <button class="btn btn-primary">Publié</button>
           <button class="btn btn-light">Brouillon</button>
-          <button class="btn btn-danger">Annuler la publication</button>
+          <button class="btn btn-danger"><a href="index.php">Annuler la publication </a></button>
         </div>
       </section>
     </div>
