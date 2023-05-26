@@ -22,9 +22,11 @@ p {
     font-size: 16px;
 }
 
-/* a {
-    color: black !important;
-} */
+a {
+    transition: 0.3s all ease;
+    color: white !important;
+
+}
 
 .border-red {
     border: solid 2px red;
@@ -69,7 +71,7 @@ p {
 }
 
 .logo a {
-    color: white;
+    color: white !important;
     line-height: 40px;
 }
 
@@ -150,11 +152,7 @@ p {
     text-transform: uppercase;
 }
 
-a {
-    transition: 0.3s all ease;
-    color: white !important;
 
-}
 
 
 
@@ -266,7 +264,7 @@ a {
 }
 
 .icons-about a {
-    color: #000000;
+    color: #000000 !important;
     padding: 1rem;
 }
 

@@ -18,7 +18,7 @@ require_once('header.php')
             <h4 class="title- text-uppercase text-black">PAGE ARTICLE</h4>
             <span>Le Site de tous les articles</span>
             <div class="icons-about">
-                <a href="#" target="_blank" class="fa fa-facebook fa-1x" title="facebook"></a>
+                <a href="#" target="_blank" class="fa fa-facebook fa-1x " title="facebook"></a>
                 <a href="#" target="_blank" class="fa fa-twitter fa-1x" title="twitter"></a>
                 <a href="#" target="_blank" class="fa fa-youtube fa-1x" title="youtube"></a>
                 <a href="#" target="_blank" class="fa fa-pinterest fa-1x" title="pinterest"></a>
