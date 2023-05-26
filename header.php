@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
+
     <!-- links pour icones fontawesome -->
     <script
       src="https://kit.fontawesome.com/896637ab26.js"
@@ -13,15 +14,19 @@
     ></script>
 
     <!-- links pour les icon bootstrap -->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"/>
 
         <!-- lien Bootstrap -->
+
     <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css" />
 
     <!-- Lien CSS -->   
-    <link rel="stylesheet" href="style.css" />
 
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="menu-burger.css" />
+
+
 
 
 
@@ -53,14 +58,14 @@
                 <div class="head_inner_area ">
                     <a class="lien-menu" href="index.php">Accueil</a>
                     <a class="lien-menu" href="post-article.php">Publier un article</a>
-                    <a class="lien-menu" href="about.php">Qui sommes nous?</a>
+                    <a class="lien-menu" href="about.php">Qui sommes nous ?</a>
                     
                 </div>
-                <div class="side-nav text-color">
+                <div class="side-nav ">
                         <ul class="abs-center nav-options">
-                            <li class="rela-block"><a class="nav-link text-color" href="index.php">Accueil</a></li>
-                            <li class="rela-block"><a class="nav-link text-color" href="post-article.php">Publier un article</a></li>
-                            <li class="rela-block"><a class="nav-link text-color" href="about.php">Qui sommes nous?</a></li>
+                            <li class="rela-block"><a class="nav-link " href="index.php">Accueil</a></li>
+                            <li class="rela-block"><a class="nav-link " href="post-article.php">Publier un article</a></li>
+                            <li class="rela-block"><a class="nav-link " href="about.php">Qui sommes nous ?</a></li>
                         </ul>
                     </div>
                 <div class="rela-block top-section">

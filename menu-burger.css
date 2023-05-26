@@ -51,6 +51,10 @@
     transition: 0.35s ease, height 0s 0.35s ease, width 0.35s ease;
 }
 
+.side-nav a {
+    color: black !important;
+}
+
 /* Menu Nav aprés ouverture */
 .side-nav.nav-open {
     height: 400px;

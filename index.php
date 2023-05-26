@@ -165,8 +165,15 @@ require_once('header.php')
         <div id="bloc-2" class="col-md-6 ">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet beatae iure optio quos ad maiores animi itaque culpa velit dolorem in cum quam fuga aspernatur repudiandae corrupti, dicta laborum cumque.</p>
         </div>
+        
+        <div class="button-voir text-center p2">
+            <a href="about.php" role="button">
+              <span> Voir plus </span>
+            </a>
+          </div>
     
       </div>
+      
     </section>
     <!-- Section NOTRE EQUIPE -->
     <div class="margin-top margin-bottom">
@@ -179,7 +186,9 @@ require_once('header.php')
             <img class="mx-auto card-img-top rounded-circle" src="img/algovie-poste.png" alt="Image de l'employé 1">
             <div class="card-body">
               <h5 class="card-title">Nom de l'employé 1</h5>
-              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe odit necessitatibus quisquam omnis</p>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                <br> Saepe odit necessitatibus quisquam omnis
+              </p>
             </div>
           </div>
         </div>
@@ -188,7 +197,9 @@ require_once('header.php')
             <img class=" mx-auto card-img-top rounded-circle" src="img/adev.png" alt="Image de l'employé 2">
             <div class="card-body">
               <h5 class="card-title">Nom de l'employé 2</h5>
-              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe odit necessitatibus quisquam omnis</p>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                <br> Saepe odit necessitatibus quisquam omnis
+              </p>
             </div>
           </div>
         </div>

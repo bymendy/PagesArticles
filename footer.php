@@ -25,9 +25,15 @@
                   </div>
   
                   <div class="col-md-4 col-xs-12">
-                      <div class="third">
-                      <p><a  href="contact.php" style="color: white;">Contact</a></p>
+                        <div class="third">
+                            <p><a  href="contact.php" style="color: white;">Contact</a></p>
+                            <div class="icons-foot">
+                                <a href="#" target="_blank" class="fa fa-facebook fa-1x white-color" title="facebook"></a>
+                                <a href="#" target="_blank" class="fa fa-twitter fa-1x" title="twitter"></a>
+                                <a href="#" target="_blank" class="fa fa-youtube fa-1x" title="youtube"></a>
+                            </div>
                       </div>
+                      
                   </div>
               </div>
           </div>
